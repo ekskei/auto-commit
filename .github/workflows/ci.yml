@@ -5,16 +5,16 @@ on:
 #    branches:
 #      - main
   schedule:
-    - cron: "5 * * * *"
+    - cron: "0 8 * * *"
 
 jobs:
-  autogreen:
+  autocommit:
     runs-on: ubuntu-latest
     steps:
-      - name: Clone repository
+      - name: clone repository
         uses: actions/checkout@v3
 
-      - name: Auto green
+      - name: commit and push
         run: |
           git config --local user.email "837866535@qq.com"
           git config --local user.name "ekskei"
