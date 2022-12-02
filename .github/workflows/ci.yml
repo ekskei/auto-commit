@@ -1,11 +1,11 @@
 name: ci
 
 on:
-  push:
-    branches:
-      - main
+#  push:
+#    branches:
+#      - main
   schedule:
-    - cron: "11 7 * * *"
+    - cron: "5 * * * *"
 
 jobs:
   autogreen:
