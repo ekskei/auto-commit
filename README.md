@@ -8,7 +8,7 @@
 
 使用 GitHub Actions 的定时任务功能，每隔一段时间自动执行 `git commit`，提交信息为 "daily commit"。
 
-有关 Github Action 的原理，可查看官方文档 [Github Action 简介](https://docs.github.com/cn/actions/learn-github-actions/introduction-to-github-actions)
+有关 GitHub Actions 的原理，可查看官方文档 [GitHub Actions](https://docs.github.com/cn/actions/learn-github-actions/introduction-to-github-actions)
 
 ## 使用
 
